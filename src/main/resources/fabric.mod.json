@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "whoami",
+  "version": "${version}",
+  "name": "Who am I?",
+  "description": "Adds all features from the Awaken SMP to Fabric.",
+  "authors": [
+    "Foksha"
+  ],
+  "contact": {
+    "website": "foksha.me"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "whoami.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
