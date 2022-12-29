@@ -3,7 +3,7 @@
   "id": "whoami",
   "version": "${version}",
   "name": "Who am I?",
-  "description": "Adds all features from the Awaken SMP to Fabric.",
+  "description": "Shows your name in third perspective and inventory.",
   "authors": [
     "Foksha"
   ],
@@ -20,6 +20,6 @@
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric": "*",
-    "minecraft": "1.19.2"
+    "minecraft": ">=1.19"
   }
 }
