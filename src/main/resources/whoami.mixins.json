@@ -2,10 +2,10 @@
   "required": true,
   "minVersion": "0.8",
   "package": "me.foksha.whoami.mixin",
-  "compatibilityLevel": "JAVA_17",
+  "compatibilityLevel": "JAVA_21",
   "mixins": [],
   "client": [
-    "LivingEntityRendererMixin"
+    "MixinLivingEntityRenderer"
   ],
   "injectors": {
     "defaultRequire": 1
